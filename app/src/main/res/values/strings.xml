@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FatFight</string>
+    <string name="go_to_settings">go to settings</string>
+    <string name="search">Search</string>
+    <string name="go_back_to_main">go back to main</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="select">Select</string>
+    <string name="recipe">Recipe</string>
+    <string name="toggle_like_recipe">toggle like recipe</string>
+    <string name="settings">Settings</string>
+    <string name="max_calories_per_day">Max calories per day</string>
+    <string name="max_calories_per_day_input">1</string>
+    <string name="max_search_results">Max search results</string>
+    <string name="max_search_results_input">1</string>
+    <string name="progress_string">%1$d of %2$d calories</string>
+    <string name="random_Feed">Random recipes</string>
+    <string-array name="random_Feed_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="diet_type">Diet type</string>
+    <string-array name="diet_type">
+        <item>None</item>
+        <item>Balanced</item>
+        <item>High Fiber</item>
+        <item>High Protein</item>
+        <item>Low Carb</item>
+        <item>Low Fat</item>
+    </string-array>
+
+    <string name="meal_type">Meal type</string>
+    <string name="label_calorie_status">* of * calories</string>
+    <string-array name="meal_type">
+        <item>Automatic</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+</resources>

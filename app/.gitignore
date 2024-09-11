@@ -1,0 +1,72 @@
+#ChatGPT 4o generation of "typical .gitignore file for a Kotlin Gradle Android project"
+
+# Gradle files
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio specific files
+.idea/
+*.iml
+*.hprof
+
+# Keystore files
+*.jks
+*.keystore
+
+# Maven
+.mvn/
+target/
+
+# Kotlin specific
+*.kt.metadata
+
+# IntelliJ IDEA files
+/out/
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+*.iml
+*.hprof
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/modules.xml
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Generated files
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Build output
+outputs/
+
+# Gradle cache
+**/build-cache/
+.gradle/
+
+# JetBrains
+.idea/
+*.iws
+*.ipr
+*.iml
+.idea/workspace.xml
+.idea/dictionaries
+
+# Other
+*~
+*.swp
